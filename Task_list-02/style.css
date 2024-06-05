@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    position: fixed;
+background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 0%;
+    width: 100%;
+    
+}
+.bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    padding-top: 18px;
+    margin-bottom: -18px;
+}
+
+#home{
+    margin-left: 650px;
+    text-decoration: none;
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./Avii.MP4);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.bar {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.container {
+    
+    height: 620px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+#MAIN_TEXT{
+    padding-top: 100px;
+}
+.container h2{
+color: aliceblue;
+padding-top: 29%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: xx-large;
+}
+.content{
+    padding-top:280px ;
+}
+a{
+    margin-left: 90px;
+    text-decoration: none;
+    color: aliceblue;
+}
+h3, h4, p{
+    color: white;
+    padding: 20px 50px;
+}
+img{
+    border-radius: 50px;
+    margin-left: 50px;
+    opacity: 0.7;
+    border: 1px solid white;
+}
+.MATTER{
+    display: flex;
+}
+#AMB{
+    height: 45px;
+    width: 150px;
+    
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-left: -11px;
+    background: red;
+    border: red;
+    color: white;
+}
+#AMB :hover #AMB{
+    color: rgba(255, 0, 0, 0.262);
+    border: black;
+
+}
+.about-container{
+    margin-top: 40px;
+    background-color: rgba(6, 5, 5, 0.7); 
+    width: 100%;
+    height: 1200px;
+}
+#align-skill{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    width: 100%;
+    height: 800px;
+}
+.porthead{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+.projectex{
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr{
+    height: 2px;
+    width:500px;
+    background: black;
+    margin:auto;
+}
+.projecthead{
+    display:flex;
+    justify-content: center;
+}
+
+.project{
+    width: 300px;
+    height:300px;
+    background: rgb(0, 0, 0);
+    color:azure;
+    margin-left:25px;
+    border-radius: 10px;
+}
+.project h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.project p{
+    text-align: center;
+}
+#portfolio{
+    margin-bottom: 200px;
+    padding-top: 100px;
+}
+#skills h2{
+    text-align:center;
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+li :hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom:20px;
+}
+section{
+    display:flex;
+    justify-content:space-evenly;
+}
+.skill-container progress{
+ accent-color: white;
+ color: white;
+  width:350px;
+  height:10px;
+  background-color:rgb(0, 0, 0);
+}
+#skills{
+    margin-top: 400px;
+    padding-top: 100px;
+    margin-bottom: 300px;
+}
+#language h3{
+    color: black;
+    padding-bottom: 50px;
+}
+#tech h3{
+    color: black;
+    padding-bottom: 50px;
+}
+#tech progress{
+    accent-color: white;
+    background: black;
+}
+#contact h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 49px;
+}
+#contact{
+     color:aliceblue;
+}
+footer{
+    background: rgb(0, 0, 0);
+    height:300px;
+    color:black;
+    margin-top: -300px;
+    margin-bottom: -200px;
+}
+.namefoot{
+    display:flex;
+}
+#nicon{
+    margin-top: 10px;
+    margin-left: 640px;
+    width:25px;
+    height:25px;
+}
+.name{
+    margin-top: 15px;
+    margin-left:-20px;
+}
+.phone{
+    display:flex;
+}
+.npicon{
+    width:25px;
+    height:25px;
+    margin-top: 0px;
+    margin-left: 640px;
+}
+.number{
+   margin-top: 4px;
+    margin-left: -17px;
+}
+#align-skill{
+    padding-top: 250px;
+}
+progress{
+    text-align: left;
+    color: white;
+    background: black;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: var(--main-color);
+    color: #333;
+}
+
+.contact-heading {
+    margin-bottom: 20px; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.social-icons a {
+    font-size: 28px;
+    color: var(--text-color);
+    margin-bottom: 25px;
+}
+.social-icons a:hover{
+    color: rgba(216, 0, 0, 0.579);
+
+}
+
+.top a{
+    font-size: 28px;
+    color: var(--text-color);
+}
+.top a:hover{
+    color: rgba(216, 0, 0, 0.579);
+}

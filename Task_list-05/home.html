@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories</title>
+    <link rel="stylesheet" href="HOME.css">
+</head>
+<body>
+   <div class="container">
+    <div class="heading">BLESSINGS !
+    </div>
+    <div class="video-container">
+        <div class="video">
+            <video src="./phalgun_Uncle.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="Raji_aunty.mp4">   </video>
+        </div>
+        <div class="video">
+            <video src="mounica.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="meghana.MP4">   </video>
+        </div>
+        <div class="video1">
+            <video src="./fam.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./grandma.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./OLD.MP4">   </video>
+        </div>
+        
+        <div class="video">
+            <video src="./aunty1.mp4">   </video>
+        </div>
+        
+        <div class="video">
+            <video src="./fam2.MP4">   </video>
+        </div>
+        <div class="video1">
+            <video src="./fam3.MP4">   </video>
+        </div>
+        <div class="video1">
+            <video src="./fam4.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./unclw1.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./Uncle2.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./chaitu.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./AKHI.MP4">   </video>
+        </div>
+        <div class="video1">
+            <video src="Ridii.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./jaswitha.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="pal.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./sow.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./sowmya.Mp4">   </video>
+        </div>
+        <div class="video1">
+            <video src="./summu.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./Vaishu.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./shersta.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./CK.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./Anand.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./surya.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./Sai.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./sanjay.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./anargya.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./rithwik.mp4">   </video>
+        </div>
+        <div class="video">
+            <video src="./maha.MP4">   </video>
+        </div>
+        <div class="video">
+            <video src="./bro.MP4">   </video>
+        </div>
+        
+
+        
+    </div>
+   </div> 
+   <div class="popup" id="popup">
+    <div class="popup-content">
+        <center><h1 id="dis">DISCLAIMER !!!</h1></center>
+        <p id="love"> THIS PAGE IS FILLED WITH LOVE </p>
+    </div>
+</div>
+   <script>
+    var video= document.querySelectorAll('video')
+    video.forEach(play => play.addEventListener('click',() =>{
+
+        play.classList.toggle('active');
+        if(play.paused){
+            play.play();
+        }
+        else{
+            play.pause();
+            play.currentTime = 0
+        }
+    }))
+
+    setTimeout(function() {
+        document.getElementById('popup').style.display = 'block';
+
+        
+        setTimeout(function() {
+            document.getElementById('popup').style.display = 'none';
+        }, 2500);
+    }, 1000);
+   </script>
+</body>
+</html>

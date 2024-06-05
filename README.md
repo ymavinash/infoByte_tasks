@@ -1,5 +1,5 @@
 first project link 
-https://ymavinash.github.io/infoByte_tasks/blob/main/Task_list-01
+https://ymavinash.github.io/infoByte_tasks/Task_list-01
 ---------------------------------------------
 second project link
 https://ymavinash.github.io/infoByte_tasks/
